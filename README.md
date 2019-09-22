@@ -52,3 +52,8 @@ You will also want to go to your telephony provider to remove any configuration 
 ## Telephony Providers
 
 This app has been verified to work with Telnyx. A FQDN connection was used for inbound and a "Credentials" connection was used for outbound (two separate connections). 
+
+## Caveats
+
+* The app assumes a single source IP address. If you want to add many or a CIDR block, you Twilio CLI manually or tweak the provisioning code in [tools.js](tools.js).
+* Your telephony provider may not support the exact connection options chosen here. Twilio supports other options as well. With a bit of effort you should be able to tweak the configuration here to meet your needs.
