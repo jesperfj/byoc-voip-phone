@@ -1,4 +1,4 @@
-# A PSTN phone in your browser using 3rd party PSTN providers
+# A VoIP phone in your browser
 
 This app allows you to make and receive phone calls in your browser. It has been tested with Chrome only. It is a variant of https://github.com/jesperfj/twilio-voip-phone which uses Twilio's builtin PSTN. In this version, you configure your own Telephony provider with a set of SIP parameters.
 
@@ -51,4 +51,4 @@ You will also want to go to your telephony provider to remove any configuration 
 
 ## Telephony Providers
 
-This app has been verified to work with Telnyx. A FQDN connection was used for inbound and a "Credentials" connection was used for outbound (two separate connections).
+This app has been verified to work with Telnyx. A FQDN connection was used for inbound and a "Credentials" connection was used for outbound (two separate connections). 
